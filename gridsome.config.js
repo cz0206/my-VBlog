@@ -10,7 +10,7 @@ module.exports = {
     {
       use: '@gridsome/source-strapi',
       options: {
-        apiURL: 'http://106.75.255.17:1337',
+        apiURL: 'http://113.31.162.150:1337',
         queryLimit: 1000, // Defaults to 100
         contentTypes: ['project', 'blog', 'followings', 'followers'], // StrapiPost
         // typeName: 'Strapi,
